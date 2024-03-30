@@ -34,3 +34,4 @@ Contributing:
 
 Feel free to submit pull requests if you have improvements or modifications to share with the community.
 
+![Payment Successful UI Element](images/payment-successful.png)
