@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>payment</title>
+        <style>
+                *{
+                        margin: 0;
+                        padding: 0;
+                }
+                body{
+                        font-family: sans-serif;
+                        display: flex;
+                        background-image: linear-gradient(to bottom right,white ,#B4D3F1);
+                        height: 100vh;
+                        justify-content: center;
+                        align-items: center;
+                }
+                .container *{
+                        margin: 10px 0;
+                }
+                .container{
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        max-width:350px;
+                        height: 400px;
+                        background-color: white;
+                        align-items: center;
+                        padding: 20px;
+                        margin: 0 10px;
+                        text-align: center;
+                        border-radius: 5%;
+                        box-shadow: 20px 10px 40px 10px black;
+                }
+                .container .payment-result{
+                        color: #161E2E;
+                }
+                .container .payment-result-details{
+                        flex-grow: 1;
+                        color: #7B818E;
+                        
+                }
+                .container .payment-img{
+                        width: 100px;
+                        height: 100px;
+                }
+                .container button{
+                        height: 3rem;
+                        color: black;
+                        width: 100%;
+                        font-size: 1.5rem;
+                        cursor: pointer;
+                        border-radius: 10px;
+                }
+                .container p .rupee{
+                        color: black;
+                }
+                .container .receipt{
+                        background-color: #5850EC;
+                        color: white;
+                }
+               .container .close{
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50%;
+                        border-color: white;
+                        position: absolute;
+                        top: 0;
+                        right: 10px;
+                        font-size: 1rem;
+                        font-weight: bold;
+                }
+        </style>
+</head>
+<body>
+        <div class="container">
+                <button class="close">🗙</button>
+                <img class="payment-img" src="card-added_14136693.png" alt="payment">
+                <h1 class="payment-result">Payment Successful</h1>
+                   <p class="payment-result-details">Your payment of <span class="rupee">₹79.00</span>  has been      
+                   successful submitted. Your receipt 
+                   has been sent to hi@example.com
+                </p>
+                <button  class="receipt">View Receipt</button>
+                <button>Go to Dashboard</button>
+        </div>        
+</body>
+
+</html>
