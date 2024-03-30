@@ -1,5 +1,3 @@
-I'd be glad to create a comprehensive README file for your payment successful UI element on GitHub:
-
 Title:Payment Successful UI Element (HTML & CSS)
 
 Description:
